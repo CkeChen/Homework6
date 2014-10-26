@@ -41,7 +41,6 @@
     
         <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Recipt_ID" DataSourceID="SqlDataSource1" DefaultMode="Insert" Height="50px" Width="125px">
             <Fields>
-                <asp:BoundField DataField="Recipt_ID" HeaderText="Recipt_ID" ReadOnly="True" SortExpression="Recipt_ID" />
                 <asp:BoundField DataField="Recipt_Name" HeaderText="Recipt_Name" SortExpression="Recipt_Name" />
                 <asp:BoundField DataField="Ingredient_1" HeaderText="Ingredient_1" SortExpression="Ingredient_1" />
                 <asp:BoundField DataField="Submitted_By" HeaderText="Submitted_By" SortExpression="Submitted_By" />

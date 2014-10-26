@@ -1,0 +1,28 @@
+		body 
+		{
+			color: purple;
+			background-color: yellow;
+			font-size: 18pt;
+			font-family: Veranda; Geneva, Arial, Helvetica, sans-serif;  
+			text-align: center;
+		}
+		
+
+
+		div { background-color:white; text-align:left; margin:0 auto; }
+		
+		p { color: black; font-size: 10pt; }
+		
+		h1 { font-style:italic; font-weight:bold; }
+		
+		a { text-decoration:none; }
+		a:link, a:visited { color:green; }
+		a:hover, a:active { text-decoration:underline; color:yellow; }
+		
+		p.subheader { font-weight:bold; color:coral; }
+		
+		.mike {background-color:orange; border:2px solid green; width:75%;}
+		
+		.footer { font-size:9pt; font-style:italic; text-align:center; line-height:12pt; padding-top:30pt; }
+		
+		#Welcome_Header { text-align:center; }
